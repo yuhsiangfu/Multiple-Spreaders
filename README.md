@@ -15,10 +15,16 @@ In this paper, we used Python 3.4, NetworkX 1.9.1, Numpy 1.9.2 and Scipy 0.15.1 
 However, the Python 3.4 is no longer compatible for `Conda` to create the `env` environment. Therefore, you coulde add the mirror channel to `Conda` by using `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`. Then, you could use `conda create -n Python34 python=3.4 anaconda` to create the `Conda env` of Python3.4.
 
 ## Simple code usage
+For real-world datasets:
 1. TBD
-2. use `experiment1_execution time analysis, real.py` to run performance analysis of different evolutionary algorithms and create `file\*.gpickle`, e.g. `dolphins_gcc, experiment1-real-lga.pickle`, `dolphins_gcc, experiment1-real-sga.pickle` and `dolphins_gcc, experiment1-real-tpef.pickle`.
-3. use `experiment1_execution time analysis, LFR.py` to run performance analysis of different evolutionary algorithms and create `file\*.gpickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-lga.pickle`, `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-sga.pickle` and `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-tpef.pickle`.
-4. TBD
+2. use `experiment1_execution time analysis, real.py` to run performance analysis of different evolutionary algorithms and create `file\*.pickle`, e.g. `dolphins_gcc, experiment1-real-lga.pickle`, `dolphins_gcc, experiment1-real-sga.pickle` and `dolphins_gcc, experiment1-real-tpef.pickle`.
+3. use `figure1_execution time analysis, real.py` to draw plots `image\*.png` and save tables of community information `image\*.txt`, e.g., `dolphins_gcc, experiment1-real-convertence.png`, `dolphins_gcc, experiment1-real-lga-fitness.png`, `dolphins_gcc, experiment1-real-lga-network.png`, `table1, community number-real.txt`, `table1, execution time analysis-real.txt` and `table1, modularity analysis-real.txt`.
+4. use `table6_network statistics, real.py` to create table of network statistics `image\*.txt`, e.g., `table6, network statistics.txt`
+
+For LFR behcnmark datasets:
+1. TBD
+2. use `experiment1_execution time analysis, LFR.py` to run performance analysis of different evolutionary algorithms and create `file\*.pickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-lga.pickle`, `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-sga.pickle` and `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-tpef.pickle`.
+3. 
 
 ## Notification
 1. You are free to use the codes for educational purposes.
