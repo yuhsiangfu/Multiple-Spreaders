@@ -19,14 +19,17 @@ For real-world datasets:
 1. use `experiment1_execution time analysis, real.py` to run performance analysis of different evolutionary algorithms and create `file\*.pickle`, e.g. `dolphins_gcc, experiment1-real-lga.pickle`, `dolphins_gcc, experiment1-real-sga.pickle` and `dolphins_gcc, experiment1-real-tpef.pickle`.
 2. use `figure1_execution time analysis, real.py` to draw plots `image\*.png` and save tables of community information `image\*.txt`, e.g., `dolphins_gcc, experiment1-real-convertence.png`, `dolphins_gcc, experiment1-real-lga-fitness.png`, `dolphins_gcc, experiment1-real-lga-network.png`, `table1, community number-real.txt`, `table1, execution time analysis-real.txt` and `table1, modularity analysis-real.txt`.
 3. use `table6_network statistics, real.py` to create table of network statistics `image\*.txt`, e.g., `table6, network statistics.txt`
+4. please see example files in `image\example_real`.
 
 For LFR behcnmark datasets:
 1. use `experiment1_execution time analysis, LFR.py` to run performance analysis of different evolutionary algorithms and create `file\*.pickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-lga.pickle`, `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-sga.pickle` and `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-tpef.pickle`.
 2. use `figure1_execution time analysis, LFR.py` to draw plots `image\*.png` and save tables of community information `image\*.txt`, e.g., `figure1, execution time analysis-LFR.png`, `figure1, modularity analysis-LFR.png`, `LFR_benchmark_1000_u=0.01, experiment1-LFR-convergence.png`, `table1, community number-LFR.txt`, `table1, execution time analysis-LFR.txt` and `table1, modularity analysis-LFR.txt`.
 3. use `figure3_normalized mutual information, LFR.py` to save the table of normalized mutual information (NMI) `image\*.txt`, e.g., ``.
  `image\*.txt`, e.g., `table3, normalized mutual information-LFR.txt`.
-4. TBD
-5. TBD
+4. use `experiment2_multiple spreading, LFR.py` to run SIR simulations `file\*.pickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment2-LFR.pickle`.
+5. use `figure2_multiple spreading, LFR.py` to draw plots of SIR simulations `image\*.png`, e.g., `figure2, multiple spreading, LFR_benchmark_1000_u=0.01.png`.
+6. use `figure4_community effect.py` to draw a plot `image\*.png` and save a table `image\*.txt` about community effect, e.g., `figure4, community effect-LFR.png` and `table4, community effect-LFR.txt`.
+7. please see example in `image\example_LFR`.
  
 ## Notification
 1. You are free to use the codes for educational purposes.
