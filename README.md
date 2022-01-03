@@ -22,9 +22,12 @@ For real-world datasets:
 
 For LFR behcnmark datasets:
 1. use `experiment1_execution time analysis, LFR.py` to run performance analysis of different evolutionary algorithms and create `file\*.pickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-lga.pickle`, `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-sga.pickle` and `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-tpef.pickle`.
-2. use `` to draw plots `image\*.png` and save tables of community information `image\*.txt`, e.g., `figure1, execution time analysis-LFR.png`, `figure1, modularity analysis-LFR.png`, `LFR_benchmark_1000_u=0.01, experiment1-LFR-convergence.png`, `table1, community number-LFR.txt`, `table1, execution time analysis-LFR.txt` and `table1, modularity analysis-LFR.txt`.
-3. TBD
-
+2. use `figure1_execution time analysis, LFR.py` to draw plots `image\*.png` and save tables of community information `image\*.txt`, e.g., `figure1, execution time analysis-LFR.png`, `figure1, modularity analysis-LFR.png`, `LFR_benchmark_1000_u=0.01, experiment1-LFR-convergence.png`, `table1, community number-LFR.txt`, `table1, execution time analysis-LFR.txt` and `table1, modularity analysis-LFR.txt`.
+3. use `figure3_normalized mutual information, LFR.py` to save the table of normalized mutual information (NMI) `image\*.txt`, e.g., ``.
+ `image\*.txt`, e.g., `table3, normalized mutual information-LFR.txt`.
+4. TBD
+5. TBD
+ 
 ## Notification
 1. You are free to use the codes for educational purposes.
 2. Our coding style may not as good as you expect, but it works.
