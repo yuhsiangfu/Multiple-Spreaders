@@ -17,7 +17,8 @@ However, the Python 3.4 is no longer compatible for `Conda` to create the `env` 
 ## Simple code usage
 1. TBD
 2. use `experiment1_execution time analysis, real.py` to run performance analysis of different evolutionary algorithms and create `file\*.gpickle`, e.g. `dolphins_gcc, experiment1-real-lga.pickle`, `dolphins_gcc, experiment1-real-sga.pickle` and `dolphins_gcc, experiment1-real-tpef.pickle`.
-3. TBD
+3. use `experiment1_execution time analysis, LFR.py` to run performance analysis of different evolutionary algorithms and create `file\*.gpickle`, e.g., `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-lga.pickle`, `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-sga.pickle` and `LFR_benchmark_1000_u=0.01_net-1, experiment1-LFR-tpef.pickle`.
+4. TBD
 
 ## Notification
 1. You are free to use the codes for educational purposes.
