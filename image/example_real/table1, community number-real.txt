@@ -1,0 +1,4 @@
+Network	karate_gcc	dolphins_gcc	
+LGA	4	5	
+SGA	2	2	
+TPEF	4	5	

@@ -1,0 +1,7 @@
+Mixing parameter	0.01	0.05	0.1	
+community-based vs. betweenness	0.2365	0.1174	0.0569	
+community-based vs. closeness	0.3833	0.1934	0.0786	
+community-based vs. degree	0.3381	0.1678	0.0706	
+community-based vs. k-shell	0.3805	0.1964	0.0837	
+community-based vs. pagerank	0.1413	0.1262	0.0654	
+Overall-avg	0.296	0.1603	0.071	

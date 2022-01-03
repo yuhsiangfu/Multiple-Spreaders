@@ -1,0 +1,5 @@
+Network	karate_gcc	karate_gcc	dolphins_gcc	dolphins_gcc	
+Execution time	Avg.	Std.	Avg.	Std.	
+LGA	1.0396	0.1307	1.9136	0.2989	
+SGA	0.632	0.0531	1.0348	0.069	
+TPEF	0.3761	0.0187	0.734	0.0414	

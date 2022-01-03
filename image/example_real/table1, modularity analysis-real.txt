@@ -1,0 +1,5 @@
+Network	karate_gcc	karate_gcc	karate_gcc	dolphins_gcc	dolphins_gcc	dolphins_gcc	
+Modularity Q	Max.	Avg.	Std.	Max.	Avg.	Std.	
+LGA	0.4198	0.4198	0.0	0.5285	0.5274	0.0009	
+SGA	0.3718	0.3718	0.0	0.4027	0.3887	0.0151	
+TPEF	0.4198	0.4176	0.0065	0.5285	0.5266	0.0011	
